@@ -1,0 +1,58 @@
+body{
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: gray;
+}
+
+.card{
+    background: white;
+    height: 420px;
+    width: 360px;
+    background-size: cover;
+    padding: 5rem 0 0;
+    border-radius: 20px;
+    padding-top: 50px;
+
+}
+
+.card_head{
+    display: flex;
+
+}
+
+#image1{
+    padding-left: 10px;
+}
+
+#image{
+    margin-right: -3.5px;
+}
+
+.card h2{
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.occup{
+    display: flex;
+    padding-left: 79px;
+    padding-bottom: rem;
+    margin-top: -30px;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card  #pal{
+    font-size: 25px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.pal{
+    color: gray;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
